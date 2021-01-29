@@ -1,12 +1,13 @@
 package com.masalava.dao;
-
-import com.masalava.entity.University;
 import com.masalava.mapper.UniMapper;
+import com.masalava.entity.University;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+
 @Repository
 public class UniDaoImpl implements UniDao {
 

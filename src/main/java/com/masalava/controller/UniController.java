@@ -52,12 +52,6 @@ public class UniController {
     public String addUniPage() {
         return "addUni";
     }
-    @PostMapping("/addUni")
-    public String addUniFromList(@ModelAttribute("university") University university) {
-        uniService.save(university);
-        return "redirect:/universities";
-    }
-
     @GetMapping("/delete/{id}")
     public String deleteUni(@PathVariable("id") int id) {
         uniService.delete(id);
