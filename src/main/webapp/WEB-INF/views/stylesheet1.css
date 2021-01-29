@@ -1,0 +1,79 @@
+div.container{
+    padding: 1%;
+    background-color: white ;
+}
+div.container4{
+
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    background-color: peachpuff;
+    padding-bottom: 122pt;
+
+}
+div.container1 {
+    padding-top: 30pt;
+    padding-bottom: 220pt;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://wallpaperaccess.com/full/1429822.jpg");
+    text-align: center;
+}
+
+div.container2 {
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    background-color: peachpuff;
+    padding-bottom: 304pt;
+}
+div.container3{
+    text-align: left;
+    padding-left: 20%;
+}
+img {
+  height: 600pt;
+    width: 400pt;
+    float: left;
+}
+input{
+    background-color: saddlebrown;
+    height: 50pt;
+    width: 100pt;
+    border-radius: 10px;
+}
+img.v
+{
+    height: 600pt;
+    width: 300pt;
+    float: right;
+}
+img.v2{
+    height: 600pt;
+    width: 300pt;
+    float: left;
+}
+
+a {
+    font-family: 'Gill Sans MT', sans-serif;
+    color: peachpuff;
+}
+hr
+{
+    width: 80%;
+    background-color: peachpuff;
+    height: 2px;
+}
+h2 {
+    font-family: 'Gill Sans MT', sans-serif;
+    color: peachpuff;
+}
+h1{
+    font-family: 'Gill Sans MT', sans-serif;
+    color: saddlebrown;
+}
+h3
+{
+    font-family: 'Gill Sans MT', sans-serif;
+    color: peachpuff;
+}

@@ -1,0 +1,6 @@
+com\masalava\controller\UserController.class
+com\masalava\dao\UserDao.class
+com\masalava\config\SpringConfig.class
+com\masalava\service\UserService.class
+com\masalava\service\TestBean.class
+com\masalava\App.class
