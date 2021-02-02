@@ -1,8 +1,4 @@
 package com.masalava.config;
-import com.masalava.dao.UniDao;
-import com.masalava.dao.UniDaoImpl;
-import com.masalava.service.UniService;
-import com.masalava.service.UniServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

@@ -18,13 +18,13 @@
     <p>Name</p>
     <input title="Name" type="text" name="name" placeholder="e.g. Stanford" pattern="^[A-Za-z0-9]+$">
     <p>Ranking</p>
-    <input title="Ranking" type="text" name="ranking" placeholder="e.g. 1" pattern="^[ 0-9]+$">
+    <input title="Ranking" type="text" name="ranking" placeholder="e.g. 1" pattern="^[0-9]+$">
     <p>Type</p>
     <input title="Type" type="text" name="type" placeholder="e.g. women" pattern="^[A-Za-z0-9]+$">
     <p>Location</p>
     <input title="Name" type="text" name="location" placeholder="e.g. USA" pattern="^[A-Za-z0-9]+$">
     <p>Application fee</p>
-    <input title="Application fee" type="text" name="appFee" placeholder="e.g. 75" pattern="^[ 0-9]+$">
+    <input title="Application fee" type="text" name="appFee" placeholder="e.g. 75" pattern="^[0-9]+$">
     <p>Examinations</p>
     <input title="Examinations" type="text" name="examinations" placeholder="e.g. SAT" pattern="^[A-Za-z0-9]+$">
     <p>Other requirements</p>
@@ -32,7 +32,7 @@
     <p>Scholarships</p>
     <input title="Scholarships" type="text" name="scholarships" placeholder="e.g. federal" pattern="^[A-Za-z0-9]+$">
     <p>Tuition fee</p>
-    <input title="Tuition fee" type="text" name="tuitionFee" placeholder="e.g. 30000" pattern="^[ 0-9]+$">
+    <input title="Tuition fee" type="text" name="tuitionFee" placeholder="e.g. 30000" pattern="^[0-9]+$">
     <p>Complete</p>
     <input title="Complete" type="text" name="complete" placeholder="e.g. submitted" pattern="^[A-Za-z0-9]+$">
     <br>
