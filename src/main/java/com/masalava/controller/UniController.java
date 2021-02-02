@@ -48,10 +48,6 @@ public class UniController {
         return "redirect:/universities";
     }
 
-    @GetMapping("/addUniFromList")
-    public String addUniPage() {
-        return "addUni";
-    }
     @GetMapping("/delete/{id}")
     public String deleteUni(@PathVariable("id") int id) {
         uniService.delete(id);

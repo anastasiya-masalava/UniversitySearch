@@ -12,9 +12,6 @@
     <h2><a href="/students_uni_war/">MAIN</a>&ensp; &ensp;   |  &ensp;  UNIVERSITIES with Stacy &ensp;   |  &ensp; &ensp;  <a href="/students_uni_war/universities">MY LIST</a></h2>
     <hr>
 </div>
-<form action="/students_uni_war/addUniFromList">
-    <input class="k2" type="submit" value="ADD UNIVERSITY FROM EXISTING LIST"/>
-</form>
 <br>
 <div class="container2">
 <form name="university" action="/students_uni_war/addUni" method ="post">
