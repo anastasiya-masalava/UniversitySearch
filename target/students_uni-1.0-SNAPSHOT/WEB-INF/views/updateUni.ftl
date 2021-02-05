@@ -33,7 +33,7 @@
     <p>Scholarships</p>
     <input title="Scholarships" type="text" name="scholarships" value="${university.scholarships}">
     <p>Tuition fee</p>
-    <input title="Tuition fee" type="number" required name="tuitionFee" value="${university.tuitionFee}">
+    <input title="Tuition fee" type="text" required name="tuitionFee" value="${university.tuitionFee}">
     <p>Complete</p>
     <input title="Complete" type="text" name="complete" value="${university.complete}">
     <br>
