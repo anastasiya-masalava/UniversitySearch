@@ -15,7 +15,7 @@ public class WebConfig {
     @Bean
     public ViewResolver getViewResolver(){
         FreeMarkerViewResolver freeMarkerViewResolver=new FreeMarkerViewResolver();
-        freeMarkerViewResolver.setOrder(1);//загружается в самом начале
+        freeMarkerViewResolver.setOrder(1);
         freeMarkerViewResolver.setSuffix(".ftl");
         freeMarkerViewResolver.setPrefix("");
         return freeMarkerViewResolver;
@@ -23,7 +23,7 @@ public class WebConfig {
     @Bean
     public FreeMarkerConfigurer getFreeMarkerWebConfigurer(){
         FreeMarkerConfigurer freeMarkerConfigurer = new FreeMarkerConfigurer();
-        freeMarkerConfigurer.setTemplateLoaderPaths("/", "/WEB-INF/views/");//здесь лежат теплэйты
+        freeMarkerConfigurer.setTemplateLoaderPaths("/", "/WEB-INF/views/");
         return freeMarkerConfigurer;
     }
 }
